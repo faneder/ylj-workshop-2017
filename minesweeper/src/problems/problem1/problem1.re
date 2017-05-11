@@ -3,10 +3,7 @@ module Problem1 = {
   type props = unit;
   let name = "Problem1";
   let render _ =>
-    <div
-      /* use the ReactRe.stringToElement function here to make this component render "ReasonML"  */
-      /* reason ships with JSX support, similar to React's */
-    />;
+    <div>(ReactRe.stringToElement "ReasonML")</div>
 };
 
 include ReactRe.CreateComponent Problem1;
